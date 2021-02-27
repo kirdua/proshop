@@ -9,7 +9,6 @@ import userRoutes from './routes/userRoutes.js'
 import orderRoutes from './routes/orderRoutes.js'
 import uploadRoutes from './routes/uploadRoutes.js'
 import {notFound, errorHandler} from './middleware/errorMiddleware.js'
-import Order from './models/orderModel.js'
 
 dotenv.config()
 
