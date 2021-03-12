@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "data:import": "node backend/seeder",
     "data:destroy": "node backedn/seeder -d",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn add --prefix frontend && yarn run build --prefix frontend"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "repository": {
     "type": "git",
